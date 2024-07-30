@@ -1,0 +1,86 @@
+
+/* ========================================= Home Media Query ======================================================*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1000px) {
+    header  h1{
+        font-size: 30px;
+        width: 100%;
+        margin: auto;
+        
+    }
+    header h5{
+       
+        font-size: 24px
+       
+    }
+
+    .container{
+        width: 100%;
+    }
+    .navbar .collapse{
+        background-color:#343434 !important;
+        margin-top: 20px;
+      
+    }
+    nav ul li a{
+
+      
+        
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .about link{
+        width: 100% !important;
+      
+
+    }
+    nav ul li {
+     padding-top: 20px;
+    }
+
+    nav .navbar-nav a {
+       
+        font-size: 16px !important;
+       
+}
+
+}
+
+/* -------------------------------------------- End About --------------------------------------- */
+
+
+/* ---------------------------------------------- Services -------------------------------------- */
+
+@media only screen and (min-width: 700px) and (max-width: 1001px) {
+    .services .container{
+        width: 85% !important;
+    }
+   .col-md-4{
+    width: 100%;
+ 
+   }
+}
+/* -------------------------------------------------------------------------------------------- */
+/* -------------------------------------------- Works Section ------------------------------- */
+@media only screen and (min-width: 990px) and (max-width: 1300px) {
+
+    
+
+}
+
+
+
+
+/* ----------------------------------- Client Section ------------------------------------------- */
+@media only screen and (min-width: 450px) and (max-width: 1001px) {
+   
+ .clients  .inner img {
+    width: 20% !important;
+ }
+ .clients  .inner p {
+    width: 100% !important;
+    font-size: 16px;
+ }
+}
+/* ----------------------------------------------------------------------------------------------- */
